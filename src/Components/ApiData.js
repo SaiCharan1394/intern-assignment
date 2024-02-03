@@ -1,25 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import Rates from "./Rates";
-const styles = {
-  dataCard: {
-    border: "1px solid #ccc",
-    borderRadius: "8px",
-    boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
-    padding: "20px",
-    maxWidth: "400px",
-    margin: "auto",
-    marginTop: "50px",
-  },
-  dataInfo: {
-    textAlign: "left",
-  },
-  rates: {
-    marginTop: "10px",
-    listStyleType: "none", // Hide list item bullets
-    padding: 0,
-  },
-};
+
 
 const ApiData = () => {
   const [data, setData] = useState({
